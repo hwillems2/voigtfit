@@ -1,0 +1,38 @@
+Metadata-Version: 2.4
+Name: voigtfit
+Version: 0.1.0
+Summary: A Python package for fitting Voigt + Gaussian profiles to stellar spectra
+Author-email: Henry Willems <henry122799@gmail.com>
+Maintainer-email: Henry Willems <henry122799@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/hwillems2/voigtfit
+Project-URL: Repository, https://github.com/hwillems2/voigtfit
+Project-URL: Issues, https://github.com/hwillems2/voigtfit/issues
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Dynamic: license-file
+
+# voigtfit
+
+`voigtfit` is a Python package for fitting Voigt + Gaussian profiles to stellar spectral lines, designed for radial velocity (RV) extraction from both emission and absorption features.
+
+Developed for spectroscopic time-series data (e.g., VFTS targets, Villasenor et al. 2021), it includes plotting, error estimation, and test data.
+
+## Features
+
+- Combined Voigt + Gaussian profile modeling
+- Radial velocity and uncertainty estimation
+- Clean fit visualization (optional)
+- Sample normalized spectra included
+- Built-in test functionality
+
+## Installation
+
+You can install the latest version directly from GitHub:
+
+```bash
+pip install git+https://github.com/hwillems2/voigtfit.git

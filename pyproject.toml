@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voigtfit"
+version = "0.1.0"
+description = "A Python package for fitting Voigt + Gaussian profiles to stellar spectra"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+  { name = "Henry Willems", email = "henry122799@gmail.com" }
+]
+maintainers = [
+  { name = "Henry Willems", email = "henry122799@gmail.com" }
+]
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib",
+]
+
+[project.urls]
+Homepage = "https://github.com/hwillems2/voigtfit"
+Repository = "https://github.com/hwillems2/voigtfit"
+Issues = "https://github.com/hwillems2/voigtfit/issues"
+
+[tool.setuptools]
+packages = ["voigtfit"]
+
+[tool.setuptools.package-data]
+"voigtfit" = ["sample_data/*.csv"]

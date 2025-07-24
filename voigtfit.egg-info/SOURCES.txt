@@ -1,0 +1,12 @@
+LICENCE.txt
+README.md
+pyproject.toml
+setup.py
+tests/test_fitting.py
+voigtfit/__init__.py
+voigtfit/fitting.py
+voigtfit.egg-info/PKG-INFO
+voigtfit.egg-info/SOURCES.txt
+voigtfit.egg-info/dependency_links.txt
+voigtfit.egg-info/requires.txt
+voigtfit.egg-info/top_level.txt
